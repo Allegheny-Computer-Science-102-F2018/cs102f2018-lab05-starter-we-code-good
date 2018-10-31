@@ -14,6 +14,7 @@ Please be sure that you justify why your idea is of interest to discrete structu
 
 
 ### Idea 1(John Scott)
+
 1) Explain your idea for a class project.
 
 2) How is the idea connected to computer science?
