@@ -79,7 +79,7 @@ project. In short, the article provides a peer-reviewed and researched backgroun
 as to _why_ we would pursue a project such as this.  
 [article](http://delivery.acm.org/10.1145/2980000/2978231/p148-griffin.pdf?ip=141.195.69.30&id=2978231&acc=ACTIVE%20SERVICE&key=A792924B58C015C1%2E8BFE97D7B60D9F36%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35&__acm__=1540952916_985f5fe5bd3d0a94806a242db35ab67a)
 
-### Idea 5
+### Idea 5(Carson Quigley)
 
 1) Explain your idea for a class project.
 
