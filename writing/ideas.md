@@ -51,7 +51,7 @@ Please be sure that you justify why your idea is of interest to discrete structu
 
 5) How will this article support your idea?
 
-### A continuation of the ideas file
+### Idea 4(Carson Quigley)
 
 1. **Explain your idea for a class project.**  
 A bare-bones compiler/interpreter formatted in a game-like sense that accepts a
