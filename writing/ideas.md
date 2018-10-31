@@ -2,7 +2,7 @@
 
 
 ## Date: 24 Oct 2018
-## Group Names:
+## Group Names: Jonathan Mendez, John Scott, Matthew Jones, Carson Quigley
 
 
 
@@ -13,7 +13,7 @@ Please be sure that you justify why your idea is of interest to discrete structu
 
 
 
-### Idea 1
+### Idea 1(John Scott)
 1) Explain your idea for a class project.
 
 2) How is the idea connected to computer science?
@@ -25,7 +25,7 @@ Please be sure that you justify why your idea is of interest to discrete structu
 5) How will this article support your idea?
 
 
-### Idea 2
+### Idea 2(Jonathan Mendez)
 1) Explain your idea for a class project.
 
 2) How is the idea connected to computer science?
@@ -37,7 +37,7 @@ Please be sure that you justify why your idea is of interest to discrete structu
 5) How will this article support your idea?
 
 
-### Idea 3
+### Idea 3(Matt Jones)
 1) Explain your idea for a class project.
 
 2) How is the idea connected to computer science?
