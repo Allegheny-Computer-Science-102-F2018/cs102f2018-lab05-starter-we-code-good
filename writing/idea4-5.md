@@ -23,7 +23,7 @@ _Learning by Taking Apart: Deconstructing Code by Reading, Tracing, and Debuggin
 "This paper argues that several lines of research support the premise that people who are learning to write code to spec can learn more efficiently if deconstructionist activities (reading, tracing, and debugging) are incorporated in the learning process." --Quoted from Griffin, P. 151.
 5. **How will this article support your idea?**  
 This article doesn't simply support the idea, but provides a baseline of research on the background proposing that the style of learning propogated by the proposed project. In short, the article provides a peer-reviewed and researched background as to _why_ we would pursue a project such as this.  
-[article](http://delivery.acm.org/10.1145/2980000/2978231/p148-griffin.pdf?ip=141.195.69.30&id=2978231&acc=ACTIVE%20SERVICE&key=A792924B58C015C1%2E8BFE97D7B60D9F36%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35&__acm__=1540952916_985f5fe5bd3d0a94806a242db35ab67a)
+[griffin](http://delivery.acm.org/10.1145/2980000/2978231/p148-griffin.pdf?ip=141.195.69.30&id=2978231&acc=ACTIVE%20SERVICE&key=A792924B58C015C1%2E8BFE97D7B60D9F36%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35&__acm__=1540952916_985f5fe5bd3d0a94806a242db35ab67a)
 
 ### Idea 5
 1) Explain your idea for a class project.
