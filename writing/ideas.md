@@ -68,21 +68,21 @@ they are currently analyzing.
 ### Idea 3(Matt Jones)
 
 
-**1) Explain your idea for a class project.**
+1. **Explain your idea for a class project.**
 Use research done in detecting beats and drum patterns in polyphonic music from their .wav files. Because rhythm and percussion is the backbone of any polyphonic group, we are interested in focusing specifically on this to group similar music together.
 
-**2) How is the idea connected to computer science?**
+2. **How is the idea connected to computer science?**
 Already many algorithms and formulas for reading .wav files and grouping similar music (music suggestion programs, etc.). It's related to discrete structures because it's using mathmatical formulas in python to interpret these .wav files.
 
-**3) What is the article's reference to support this idea? Note: Articles are no older than five years**
+3. **What is the article's reference to support this idea? Note: Articles are no older than five years**
 The articles listed below have built the systems to recognize patterns in beat/tempo and percussive patterns (older):
 [griffin](https://dl.acm.org/citation.cfm?id=2978231)  
 [supporting article](http://winnie.kuis.kyoto-u.ac.jp/~yoshii/papers/mirex-2005-yoshii.pdf) The next article is newer than the previous two, and also goes on to identify artists and songs by their percussive patterns. Using this, we can take artists we already know people percieve as similar, and compare their percussive patterns.[Article3](https://link.springer.com/article/10.1186/s13636-014-0026-5)
 
-**4) What is the central thesis to the article(s)?**
+4. **What is the central thesis to the article(s)?**
 How accuratly you can find the tempo/rhythm and percussive patterns in different genres (changes how difficult it is to pick up on the patterns)? And, how to separate percussive and harmonic sounds from monaural non-vocal polyphonic signals.
 
-**5) How will this article support your idea?**
+5. **How will this article support your idea?**
 Build our system directly off of their systems and add the portiion that groups music with similarities together.
 
 ### Idea 4(Carson Quigley)
