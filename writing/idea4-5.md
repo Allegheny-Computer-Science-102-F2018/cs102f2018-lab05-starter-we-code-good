@@ -19,36 +19,47 @@ A bare-bones compiler/interpreter formatted in a game-like sense that accepts a
 file as input and hopefully provides a number of case-by-case solutions to common 
 python errors. This isn't intended to be an actual compiler/interpreter, but rather 
 serves as a sneaky teaching tool that allows players to learn through interest.
+
 2. **How is the idea connected to computer science?**  
 It is directly tied to code compilation and attampts to allow users to 'teach 
 themselves' by participating in a code-like game
+
 3. **What is the article's reference to support this idea? Note: Articles are no 
 older than five years**  
 _Learning by Taking Apart: Deconstructing Code by Reading, Tracing, and Debugging_ 
 is the title of the piece, need I say more?
+
 4. **What is the central thesis to the article?**  
 "This paper argues that several lines of research support the premise that people 
 who are learning to write code to spec can learn more efficiently if deconstructionist 
 activities (reading, tracing, and debugging) are incorporated in the learning process." 
 --Quoted from Griffin, P. 151.
+
 5. **How will this article support your idea?**  
 This article doesn't simply support the idea, but provides a baseline of research 
 on the background proposing that the style of learning propogated by the proposed 
 project. In short, the article provides a peer-reviewed and researched background 
 as to _why_ we would pursue a project such as this.  
-[griffin](http://delivery.acm.org/10.1145/2980000/2978231/p148-griffin.pdf?ip=141
-.195.69.30&id=2978231&acc=ACTIVE%20SERVICE&key=A792924B58C015C1%2E8BFE97D7B60D9F36
-%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35&__acm__=1540952916_985f5fe5bd3d0a94806a242d
-b35ab67a)
+[griffin](https://dl.acm.org/citation.cfm?id=2978231)  
 [supporting article](https://www.jstor.org/stable/24034474?pq-origsite=summon&seq=
 1#metadata_info_tab_contents) (not used, but useful if topic is chosen).
 
 ### Idea 5(Carson Quigley)
 
+1. **Explain your idea for a class project.**  
+Create a robust and self-stabilizing program that can handle any kind of input.  
+
 2. **How is the idea connected to computer science?**  
+It helps keep programs fault-tolerant.  
 
 3. **What is the article's reference to support this idea? Note: Articles are no older than five years**  
+The article is titled _Designing Self-Stabilizing Systems Using Game Theory_, 2016.
 
 4. **What is the central thesis to the article?**  
+Using game theory, they were able to come up with algorithms that allow systems to 
+self-stabilize in the face of many arbitrary system faults.  
 
 5. **How will this article support your idea?**  
+The article provides a background on the idea behind self-stabilizing systems that 
+would help in creating our own fault-tolerant programs.  
+[Yen, Huang, Turau](https://dl.acm.org/citation.cfm?id=2957760)
