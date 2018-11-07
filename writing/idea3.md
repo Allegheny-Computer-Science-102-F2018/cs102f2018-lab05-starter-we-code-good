@@ -22,10 +22,8 @@ Already many algorithms and formulas for reading .wav files and grouping similar
 3) What is the article's reference to support this idea? Note: Articles are no older than five years
 The articles listed below have built the systems to recognize patterns in beat/tempo and percussive patterns (older):
 [Article1](https://www.researchgate.net/profile/Francois_Pachet/publication/4001328_Automatic_Extraction_of_Drum_Tracks_from_Polyphonic_Music_Signals/links/0046352c2e1d780c1e000000/Automatic-Extraction-of-Drum-Tracks-from-Polyphonic-Music-Signals.pdf)
-[Article2](http://winnie.kuis.kyoto-u.ac.jp/~yoshii/papers/mirex-2005-yoshii.pdf)
+[Article2](http://winnie.kuis.kyoto-u.ac.jp/~yoshii/papers/mirex-2005-yoshii.pdf) The next article is newer than the previous two, and also goes on to identify artists and songs by their percussive patterns. Using this, we can take artists we already know people percieve as similar, and compare their percussive patterns.[Article3](https://link.springer.com/article/10.1186/s13636-014-0026-5)
 
-This article is newer than the previous two, and also goes on to identify artists and songs by their percussive patterns. Using this, we can take artists we already know people percieve as similar, and compare their percussive patterns.
-[Article3](https://link.springer.com/article/10.1186/s13636-014-0026-5)
 4) What is the central thesis to the article(s)?
 How accuratly you can find the tempo/rhythm and percussive patterns in different genres (changes how difficult it is to pick up on the patterns)? And, how to separate percussive and harmonic sounds from monaural non-vocal polyphonic signals.
 
