@@ -112,8 +112,7 @@ on the background proposing that the style of learning propogated by the propose
 project. In short, the article provides a peer-reviewed and researched background
 as to _why_ we would pursue a project such as this.  
 [griffin](https://dl.acm.org/citation.cfm?id=2978231)  
-[supporting article](https://www.jstor.org/stable/24034474?pq-origsite=summon&seq=
-1#metadata_info_tab_contents) (not used, but useful if topic is chosen).
+[supporting article](https://www.jstor.org/stable/24034474?pq-origsite=summon&seq=1#metadata_info_tab_contents) (not used, but useful if topic is chosen).
 
 ### Idea 5(Carson Quigley)
 
