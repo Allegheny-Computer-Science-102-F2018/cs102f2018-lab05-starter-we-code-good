@@ -14,13 +14,20 @@ Please be sure that you justify why your idea is of interest to discrete structu
 ### Idea 3(Matt Jones)
 
 1) Explain your idea for a class project.
+Using research done in detecting beats and drum patterns in polyphonic music from their .wav files. Because rhythm and percussion is the backbone of any polyphonic group, we are interested in focusing specifically on this to group similar music together.
 
 2) How is the idea connected to computer science?
+Already many algorithms and formulas for reading .wav files and grouping similar music (music suggestion programs, etc.)
 
 3) What is the article's reference to support this idea? Note: Articles are no older than five years
+The articles listed below have built the systems to recognize patterns in beat/tempo and percussive patterns (older):
+https://www.researchgate.net/profile/Francois_Pachet/publication/4001328_Automatic_Extraction_of_Drum_Tracks_from_Polyphonic_Music_Signals/links/0046352c2e1d780c1e000000/Automatic-Extraction-of-Drum-Tracks-from-Polyphonic-Music-Signals.pdf
+http://winnie.kuis.kyoto-u.ac.jp/~yoshii/papers/mirex-2005-yoshii.pdf
 
-4) What is the central thesis to the article?
+This article is newer than the previous two, and also goes on to identify artists and songs by their percussive patterns. Using this, we can take artists we already know people percieve as similar, and compare their percussive patterns.
+
+4) What is the central thesis to the article(s)?
+How accuratly you can find the tempo/rhythm and percussive patterns in different genres (changes how difficult it is to pick up on the patterns)? And, how to separate percussive and harmonic sounds from monaural non-vocal polyphonic signals.
 
 5) How will this article support your idea?
-
-
+Build our system directly off of their systems and add the portiion that groups music with similarities together.
