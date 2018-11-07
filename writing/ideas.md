@@ -72,7 +72,7 @@ they are currently analyzing.
 Use research done in detecting beats and drum patterns in polyphonic music from their .wav files. Because rhythm and percussion is the backbone of any polyphonic group, we are interested in focusing specifically on this to group similar music together.
 
 2. **How is the idea connected to computer science?**
-Already many algorithms and formulas for reading .wav files and grouping similar music (music suggestion programs, etc.). It's related to discrete structures because it's using mathmatical formulas in python to interpret these .wav files.
+Already many algorithms and formulas for reading .wav files and grouping similar music (music suggestion programs, etc.). It's related to discrete structures because it's using mathematical formulas in python to interpret these .wav files.
 
 3. **What is the article's reference to support this idea? Note: Articles are no older than five years**
 The articles listed below have built the systems to recognize patterns in beat/tempo and percussive patterns (older):
