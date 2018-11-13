@@ -67,7 +67,6 @@ they are currently analyzing.
 
 ### Idea 3(Matt Jones)
 
-
 1. **Explain your idea for a class project.**
 Use research done in detecting beats and drum patterns in polyphonic music from their .wav files. Because rhythm and percussion is the backbone of any polyphonic group, we are interested in focusing specifically on this to group similar music together.
 
@@ -126,10 +125,10 @@ It helps keep programs fault-tolerant.
 The article is titled _Designing Self-Stabilizing Systems Using Game Theory_, 2016.
 
 4. **What is the central thesis to the article?**  
-Using game theory, they were able to come up with algorithms that allow systems to 
+Using game theory, they were able to come up with algorithms that allow systems to
 self-stabilize in the face of many arbitrary system faults.  
 
 5. **How will this article support your idea?**  
-The article provides a background on the idea behind self-stabilizing systems that 
+The article provides a background on the idea behind self-stabilizing systems that
 would help in creating our own fault-tolerant programs.  
 [Yen, Huang, Turau](https://dl.acm.org/citation.cfm?id=2957760)
