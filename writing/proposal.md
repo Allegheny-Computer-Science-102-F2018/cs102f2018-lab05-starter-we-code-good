@@ -21,9 +21,10 @@ basic program or idea will open new opportunities for the blind because now they
 will be able to understand what is occurring in a plot of data or in an article
 through the changes and the emotions.
 
-Expanding on the feasibility of our project, we have a few options when addressing feasibility within the scope of our class. First, if we find we are running short on time, we can simply end our project after we implement the necessary algorithms and packages to generate fuegues. If we still have some additional time but not enough to fully implement an approach to generating music from real-world inputs, we can still research and do some testing on the subject and add this to our future work/conclusion section of our paper. Ideally, we will be able to finish all of this project without a problem (as described in our first paragraph). Lastly, our sources are below, one source contains useful algorithms for our project, while the other focuses on generating music from real world inputs.
+Expanding on the feasibility of our project, we have a few options when addressing feasibility within the scope of our class. First, if we find we are running short on time, we can simply end our project after we implement the necessary algorithms and packages to generate fuegues. If we still have some additional time but not enough to fully implement an approach to generating music from real-world inputs, we can still research and do some testing on the subject and add this to our future work/conclusion section of our paper. Ideally, we will be able to finish all of this project without a problem (as described in the paragraph above). Lastly, our sources are below, one source contains useful algorithms for our project, while the other focuses on generating music from real world inputs.
 
-###Related work
+## Related work:
+
 [Algorthims, etc.](https://arxiv.org/pdf/1709.06298.pdf)
 
 [Real world inputs (from text, etc.)](http://axon.cs.byu.edu/ICCC2015proceedings/9.2Scirea.pdf)
