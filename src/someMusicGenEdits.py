@@ -25,12 +25,12 @@ def generateNoteSet(sentiment, duration):
     else#setPitchesToA_minor
         A = Note(9,5, duration)
         B = Note(11,5,duration)
-        C = Note(12,5,duraiton)
+        C = Note(12,5,duration)
         D =
         E =
         F =
-        G =
-        return NoteSeq([A, B, C, D, E, F, G])
+        Gsharp =
+        return NoteSeq([A, B, C, D, E, F, Gs])
     #return this as a parameter in genMidi()
 def genLength(length):
     #if length == "short" return 16
