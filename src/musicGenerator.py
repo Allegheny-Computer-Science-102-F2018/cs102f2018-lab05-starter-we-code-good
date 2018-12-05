@@ -10,11 +10,11 @@ from pyknon.music import NoteSeq
 import random
 
 #Takes semantic analysis input
-def majorMinor():
-    if :
-    else
+#def majorMinor():
+    #if :
+    #else
 
-def genRandom():
+#def genRandom():
 
 
 durations = {
@@ -24,7 +24,7 @@ durations = {
     "16" # sixteenth note
 }
 
-pitches = {
+C_major = {
     'A',
     'B',
     'C',
@@ -55,6 +55,25 @@ def genMidi():
     #fs.midi_to_audio('midi/test.mid', 'mp3/test.mp3')
 
     #Audio("mp3/test.mp3") this plays the mp3
+
+def randomSeq(n, pitches, durations, rests=True):
+    # Add a rest to the set of pitches if desired.
+    if rests:
+        pitches.add('r')
+
+    this_seq = ''
+    for i in range(n):
+        pitch = random.sample(pitches, 1)
+        duration = random.sample(durations, 1)
+        this_seq += pitch[0] + duration[0] + ' '
+
+    return NoteSeq(this_seq)
+
+notes_C_major = get_random_note_seq(70, C_major, durations)
+midi = Midi(1, tempo=120)
+midi.seq_notes(notes_C_major, track=0)
+midi.write("A_major.mid")
+
 
 genRandom()
 genMidi()
