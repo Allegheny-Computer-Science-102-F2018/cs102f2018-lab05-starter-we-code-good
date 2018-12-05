@@ -12,24 +12,24 @@ import random
 
 #Takes semantic analysis input
 def generateNoteSet(sentiment, duration):
-    if :#setPitchesToPitches/CMajor
+    if sentiment >= 50:#setPitchesToPitches/CMajor
+        # Middle C Template: Note(value=0, octave=5, dur=0.25, volume=127)
         C = Note(0,5, duration)
         D = Note(2,5, duration)
-        E =
-        F =
-        G =
-        A =
-        B =
-        C =
-        return NoteSeq([A, B, C, D, E, F, G])
-    else#setPitchesToA_minor
+        E = Note(4,5, duration)
+        F = Note(5,5, duration)
+        G = Note(7,5, duration)
         A = Note(9,5, duration)
-        B = Note(11,5,duration)
-        C = Note(12,5,duration)
-        D =
-        E =
-        F =
-        Gsharp =
+        B = Note(11,5, duration)
+        return NoteSeq([A, B, C, D, E, F, G])
+    else:#setPitchesToA_minor
+        A = Note(9,4, duration)
+        B = Note(11,4,duration)
+        C = Note(0,5,duration)
+        D = Note(2,5,duration)
+        E = Note(4,5,duration)
+        F = Note(5,5,duration)
+        Gs = Note(8,5,duration)
         return NoteSeq([A, B, C, D, E, F, Gs])
     #return this as a parameter in genMidi()
 def genLength(length):
