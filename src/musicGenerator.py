@@ -72,7 +72,7 @@ def randomSeq(n, pitches, durations, rests=True):
 notes_C_major = get_random_note_seq(70, C_major, durations)
 midi = Midi(1, tempo=120)
 midi.seq_notes(notes_C_major, track=0)
-midi.write("A_major.mid")
+midi.write("C_major.mid")
 
 
 genRandom()
