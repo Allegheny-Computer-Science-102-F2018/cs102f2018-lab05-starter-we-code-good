@@ -27,8 +27,11 @@ def gen_classifier():
 #done
 
 args = sys.argv
-nltk.download('movie_reviews')
 
-inputfile = args[0]
-classifier = gen_classifier()
-classifier.classify(inputfile)
+if len(args) != 2:
+    sys.exit("Invalid arguments. Usage: python3 sentimentAnalyzer.py <file>")
+else:
+    inputfile = args[len(args) - 1]
+    nltk.download('movie_reviews')
+    classifier = gen_classifier()
+    classifier.classify(inputfile)
