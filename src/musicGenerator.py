@@ -81,10 +81,10 @@ notes = randomSeq(length, key, durations)
 tempo1 = genTempo(sentiment)
 midi = Midi(1, tempo=tempo1)
 midi.seq_notes(notes, track=0)
-midi.write("midi/a_minor6.mid")
+midi.write("midi/audio.mid")
 
 pygame.init()
-pygame.mixer.music.load("midi/a_minor6.mid")
+pygame.mixer.music.load("midi/audio.mid")
 pygame.mixer.music.play()
 
 while pygame.mixer.music.get_busy():
