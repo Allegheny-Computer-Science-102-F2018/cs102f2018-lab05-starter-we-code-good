@@ -16,17 +16,18 @@ import random
 
 #def genRandom():
 
+
 def genDuration(length):
     if(length == "short"):
-        durations = {
+        return {
             "2", # half note
         }
     elif(length == "medium"):
-        durations = {
+        return {
             "4", # quarter note
             }
     else:
-        durations = {
+        return {
             "8", # eighth note
         }
 
@@ -51,12 +52,13 @@ A_minor = {
 }
 def genKey(sentiment):
     if(sentiment == "happy"):
-        key = C_major
+        return C_major
     else:
-        key = A_minor
-def genMidi():
+        return A_minor
+def genMidi(seq):
     #defaults: 1 track, 60bpm
     midi = Midi(1, tempo = 120)
+    midi.seq_notes(seq, track=0)
     midi.write("midi/test.mid")
 
     #FluidSynth().play_midi('midi/test.mid')
@@ -66,7 +68,7 @@ def genMidi():
 
     #Audio("mp3/test.mp3") this plays the mp3
 
-def randomSeq(n, pitches, durations, rests=False):
+def randomSeq(n, pitches, durations, rests=True):
     # Add a rest to the set of pitches if desired.
     if rests:
         pitches.add('r')
@@ -85,4 +87,4 @@ durations = genDuration(length)
 notes = randomSeq(70, key, durations)
 midi = Midi(1, tempo=120)
 midi.seq_notes(notes, track=0)
-midi.write("midi/test1.mid")
+midi.write("a_minor6.mid")
