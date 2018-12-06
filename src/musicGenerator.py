@@ -49,6 +49,18 @@ def genKey(sentiment):
     else:
         return A_minor
 
+def genTempo(sentiment):
+    if(sentiment == "happy"):
+        return 120
+    else:
+        return 30
+
+def genLength(sentiment):
+    if(sentiment == "happy"):
+        return 90
+    else:
+        return 44
+
 def randomSeq(n, pitches, durations, rests=True):
     # Add a rest to the set of pitches if desired.
     if rests:
@@ -64,15 +76,15 @@ def randomSeq(n, pitches, durations, rests=True):
 
 sentiment = input("Was it happy or sad?\n")
 key = genKey(sentiment)
-#length = input("Was it short, medium, or long?\n")
-#durations = genDuration(length)
-notes = randomSeq(70, key, durations)
-midi = Midi(1, tempo=120)
+length = genLength(sentiment)
+notes = randomSeq(length, key, durations)
+tempo1 = genTempo(sentiment)
+midi = Midi(1, tempo=tempo1)
 midi.seq_notes(notes, track=0)
-midi.write("midi/audio.mid")
+midi.write("midi/a_minor6.mid")
 
 pygame.init()
-pygame.mixer.music.load("midi/audio.mid")
+pygame.mixer.music.load("midi/a_minor6.mid")
 pygame.mixer.music.play()
 
 while pygame.mixer.music.get_busy():
