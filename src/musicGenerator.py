@@ -7,6 +7,7 @@
 from pyknon.genmidi import Midi
 import pyknon.music
 from pyknon.music import NoteSeq
+from pyknon.music import Note
 import random
 import pygame
 
@@ -83,7 +84,15 @@ midi = Midi(1, tempo=tempo1)
 midi.seq_notes(notes, track=0)
 midi.write("midi/audio.mid")
 
+C_note = Note(0, 5, dur=0.25)
+seq = NoteSeq([C_note])
+midi.seq_notes(seq, track=0)
+midi.write("midi/starter.mid")
+
 pygame.init()
+pygame.mixer.music.load("midi/starter.mid")
+pygame.mixer.music.play()
+
 pygame.mixer.music.load("midi/audio.mid")
 pygame.mixer.music.play()
 
