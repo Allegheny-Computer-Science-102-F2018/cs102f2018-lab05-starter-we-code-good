@@ -1,9 +1,6 @@
 #Matt Jones, John Scott, Jon Mendez, Carson Quigley
-#Fugue generator
-#TODO: Make code that creates correct sized random melody, create code that transposes melody, create code that extends melody
+#Music generator
 
-#from IPython.display import Audio
-#from midi2audio import FluidSynth
 from pyknon.genmidi import Midi
 import pyknon.music
 from pyknon.music import NoteSeq
@@ -12,13 +9,21 @@ import random
 import pygame
 
 
-#Takes semantic analysis input
-#def majorMinor():
-    #if :
-    #else
+def genMusic(sentiment):
+    key = genKey(sentiment)
+    length = genLength(sentiment)
+    notes = randomSeq(length, key, durations)
+    tempo1 = genTempo(sentiment)
+    midi = Midi(1, tempo=tempo1)
+    midi.seq_notes(notes, track=0)
+    midi.write("midi/audio.mid")
 
-#def genRandom():
+    pygame.init()
+    pygame.mixer.music.load("midi/audio.mid")
+    pygame.mixer.music.play()
 
+    while pygame.mixer.music.get_busy():
+        pygame.time.wait(1000)
 
 durations = {
     "1"
@@ -74,27 +79,3 @@ def randomSeq(n, pitches, durations, rests=True):
         this_seq += pitch[0] + duration[0] + ' '
 
     return NoteSeq(this_seq)
-
-sentiment = input("Was it happy or sad?\n")
-key = genKey(sentiment)
-length = genLength(sentiment)
-notes = randomSeq(length, key, durations)
-tempo1 = genTempo(sentiment)
-midi = Midi(1, tempo=tempo1)
-midi.seq_notes(notes, track=0)
-midi.write("midi/audio.mid")
-
-C_note = Note(0, 5, dur=0.25)
-seq = NoteSeq([C_note])
-midi.seq_notes(seq, track=0)
-midi.write("midi/starter.mid")
-
-pygame.init()
-pygame.mixer.music.load("midi/starter.mid")
-pygame.mixer.music.play()
-
-pygame.mixer.music.load("midi/audio.mid")
-pygame.mixer.music.play()
-
-while pygame.mixer.music.get_busy():
-    pygame.time.wait(1000)

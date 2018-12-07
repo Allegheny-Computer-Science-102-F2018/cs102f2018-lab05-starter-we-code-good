@@ -47,4 +47,3 @@ def doAnalysis(inputfile):
     elif rank < 0:
         return "sad"
 #end
-doAnalysis('input/article.txt')
