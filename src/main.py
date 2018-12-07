@@ -1,10 +1,10 @@
-import sentimentAnalyzer.py
-import musicGenerator.py
+import sentimentAnalyzer
+import musicGenerator
 
 def begin():
     print("Welcome to the text-music program: representing articles discretely through music.\n")
     filePath = input("Please paste file path to your article \".txt\" file and press enter.\n")
-    sentiment = doAnalysis(filePath)
+    doAnalysis(filePath)
     genMusic(sentiment)
 
 #not sure what this does so I commented it out for now.
