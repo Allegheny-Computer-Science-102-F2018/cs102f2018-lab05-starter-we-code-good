@@ -59,7 +59,7 @@ pygame init, load, and play features.
 
 ### Code Diagram:
 
-![code-diagram-alt-text](img/code-diagram.png “mouse hover text”)
+![code-diagram-alt-text](img/code-diagram.png "mouse hover text")
 
 ### Results:
 
