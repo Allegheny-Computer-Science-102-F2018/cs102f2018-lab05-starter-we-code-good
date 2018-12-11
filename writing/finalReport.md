@@ -7,12 +7,12 @@
 
 ### Introduction and Motivation:
 
-  The project that our group chose to create was a way to represent text as music
+The project that our group chose to create was a way to represent text as music
 passages. This program allows users to input text files, and uses a variety of
 Python methods and packages to create a short audio summary which changes based
 on the overarching mood of any text.
 
-  The biggest motivation for this project stems from each team members’ personal
+The biggest motivation for this project stems from each team members’ personal
 interests in music. Every person in the “We Code Good” team is involved with
 music at Allegheny College, either playing in various ensembles, or pursuing music
 as an academic focus. This experience gave our group knowledge of an area not
@@ -30,7 +30,7 @@ criteria gathered from the sentiment analysis, the musical sequence would change
 from one iteration to the next, as to add another element of musical composition
 to the project.
 
-  Although at first glance this project seems to lack any practical application,
+Although at first glance this project seems to lack any practical application,
 we foresee a handful of related use case scenarios. Listening to a short audio
 clip is much less time consuming than reading a scientific paper, so this project
 can be used to summarize text works. This can be much more important for someone
@@ -40,7 +40,7 @@ mood of written work without having to read through it.
 
 ### Description:
 
-  Our team was tasked with creating a music generator that takes in text input and
+Our team was tasked with creating a music generator that takes in text input and
 outputs music depending on a sentiment analysis. The goal for this project is to
 make it possible for blind people to have a way of understanding the sentiment of
 an article or newspaper without them having to read it. In order to accomplish this,
@@ -59,11 +59,11 @@ pygame init, load, and play features.
 
 ### Code Diagram:
 
-[code-diagram-alt-text](img/code-diagram.png “mouse hover text”)
+![code-diagram-alt-text](img/code-diagram.png “mouse hover text”)
 
 ### Results:
 
-  The program generates a midi file using the output of a sentiment analysis on
+The program generates a midi file using the output of a sentiment analysis on
 the input article. The input article needs to be a plaintext document, for
 demonstration we used a .txt file. The output of the sentiment analysis is
 technically an integer, but for the purposes of our program we actually output
@@ -74,7 +74,7 @@ to be in either the key of C major or A minor respectively.
 
 ### Conclusion:
 
-  Our project ultimately was very complex and interesting to write. It first begins
+Our project ultimately was very complex and interesting to write. It first begins
 with an input file which is in the .txt format. Any file can be input into the
 program so long as it is in a plaintext format, as the sentiment analyzer is
 capable of reading plaintext. The sentiment analyzer also has a predefined
@@ -87,7 +87,7 @@ returned to the main function so it can call the appropriate musicGenerator
 function. The output of the file is the midi file containing the music that is
 played once all the analysis is done.
 
-  Some of the most interesting and challenging parts of the project were during
+Some of the most interesting and challenging parts of the project were during
 the sentiment analysis development. The sentiment analyzer function was initially
 going to look almost nothing like the final product, as we had intended to use the
 python natural language processing library nltk. After developing most of the nltk
@@ -106,7 +106,7 @@ sounding too much like the major key, and bringing the ‘feel’ of the song mo
 towards a sad tone. In this regard, we also gave the ‘sad’ song a slower tempo
 to the more ‘upbeat’ positive sentiment song.
 
-  Ultimately, this project had many difficult aspirations for a project constrained
+Ultimately, this project had many difficult aspirations for a project constrained
 to the time frame we had, but with the team’s efforts, and just a little compromise,
 we were able to come up with an extremely fun program. There are few moments that
 we can say were more rewarding than the first time we ran the program after bringing
@@ -117,7 +117,7 @@ quickly, and we were all excited to demonstrate our success to the class.
 
 ### Teamwork:
 
-  Our team worked really well together, although at first we had trouble communicating, 
+Our team worked really well together, although at first we had trouble communicating,
 we opened a group chat for our team and got ourselves organized well enough to get
 the project moving. Jon Mendez and John Scott worked together on the musicGenerator
 function, as this was the major goal of the project we assigned two team members
